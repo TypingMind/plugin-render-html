@@ -1,0 +1,23 @@
+{
+  "id": "render_html",
+  "uuid": "c6894955-44cf-46f3-958d-2b6d7f9e46c8",
+  "emoji": "🖥️",
+  "title": "Render HTML",
+  "openaiSpec": {
+    "name": "render_html",
+    "parameters": {
+      "type": "object",
+      "required": ["htmlSource"],
+      "properties": {
+        "htmlSource": {
+          "type": "string",
+          "description": "The HTML Source to render to the user interface."
+        }
+      }
+    },
+    "description": "Render a HTML source to the user interface that will be shown to the users for interactive contents."
+  },
+  "system": true,
+  "implementationType": "javascript",
+  "outputType": "render_html"
+}
