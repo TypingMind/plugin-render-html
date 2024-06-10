@@ -17,7 +17,6 @@
     },
     "description": "Render a HTML source to the user interface that will be shown to the users for interactive contents."
   },
-  "system": true,
   "implementationType": "javascript",
   "outputType": "render_html"
 }
