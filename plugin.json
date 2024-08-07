@@ -5,6 +5,7 @@
   "title": "Render HTML",
   "openaiSpec": {
     "name": "render_html",
+    "strict": true,
     "parameters": {
       "type": "object",
       "required": ["htmlSource"],
