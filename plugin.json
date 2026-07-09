@@ -3,6 +3,7 @@
   "uuid": "c6894955-44cf-46f3-958d-2b6d7f9e46c8",
   "emoji": "🖥️",
   "title": "Render HTML",
+  "iconURL": "https://custom.typingmind.com/assets/plugins/render-html.webp",
   "openaiSpec": {
     "name": "render_html",
     "parameters": {
