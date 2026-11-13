@@ -16,7 +16,7 @@
         }
       }
     },
-    "description": "Render a HTML source to the user interface that will be shown to the users for interactive contents."
+    "description": "Render a HTML source to the user interface that will be shown to the users for interactive contents. Each call renders one complete HTML document. For a large app or page, build it in steps. The first call renders a rough working version: the layout and a simple stand-in for each main part, a few hundred lines at most. Make it soon: keep your reasoning before it short, don't plan every detail or draft the code in your reasoning, and render it before testing its code with other tools. Then call this tool again with the full updated document, adding several parts each time, until every part the user asked for is built: don't stop at the rough version, but keep it to a few calls. Keep each response, reasoning included, well under your output limit: the limit applies to each response, and every tool call ends one."
   },
   "implementationType": "javascript",
   "outputType": "render_html"
